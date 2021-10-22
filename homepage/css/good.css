@@ -1,0 +1,95 @@
+﻿*{ margin:0px; padding:0px;}
+body 
+{
+    line-height:1.5;  
+    font-family:kaiti;
+}
+img{ max-width:100%; }
+a{ text-decoration:none;}
+ul,li{ list-style:none;} 
+.inner {
+    max-width: 900px;
+    margin: 0 auto; 
+    background:url(../images/bg.png) no-repeat;  
+    background-size:100% 100%;
+    padding: 30px;
+}
+.logo {
+    background: #977865; 
+    padding: 20px 30px 20px 10px;
+    font-size: 45px;
+    line-height: 1;
+    letter-spacing: 8px;
+    height:100px; 
+    text-align:center;
+}
+.logo img{ height:100px;}
+.main{ overflow:hidden; }
+.main .content {
+    float: left;
+    width: 60%;
+}
+.nav {   
+    background: #b7b7a4;
+    padding: 10px 20px;
+    margin:10px 0px;
+}
+.nav ul{ overflow:hidden; }
+.nav li{ float:left; width:33.3333%;}
+.nav li a {
+    font-size: 20px;
+    line-height: 2;
+    color: #000;
+    font-style: italic;
+}
+.main .sidebar {
+    float: right;
+    width: 35%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background: #b7b7a4;
+    
+    background-size: 90% 100%;
+    padding: 20px 0px;
+} 
+.main .sidebar h2 {
+    padding-left: 50px;
+    font-size: 24px;
+}
+.main .sidebar li {
+    padding-left: 50px;
+}
+.main .sidebar li a {
+    font-size: 24px;
+    line-height: 3; 
+}
+.main .sidebar li:nth-child(1) a{ color:red;}
+.main .sidebar li:nth-child(2) a{ color:#a369f1; margin-left:10px;}
+.main .sidebar li:nth-child(3) a{ color:#6bdfde; margin-left:20px;}
+.main .sidebar li:nth-child(4) a{ color:#a369f1; margin-left:30px;}
+.main .sidebar li:nth-child(5) a{ color:#ef8787;  margin-left:40px;}
+.content h2 {
+    font-family: 'Bree Serif', serif;
+    color: #aa81f9;
+    text-align:center;
+    margin:10px 0px;
+}
+.jieshao {
+    text-align: center;
+    padding: 30px 20px;
+    background: #ffacd6;
+    margin-bottom: 20px;
+}
+.jieshao p {
+    font-family: 'Bree Serif', serif;
+    color: #5c5c5c;
+    line-height: 2; 
+    text-align:left;
+}
+.jieshao li{ overflow:hidden; margin-bottom:10px; }
+.jieshao li img{ float:left; width:60%;}
+.jieshao li:nth-child(2n+2) img{ float:right; width:60%; }
+.jieshao li p{ line-height:170px; text-align:center; }
+.footer{ text-align: center;
+    margin-top: 30px;
+    font-size: 18px;}

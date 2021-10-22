@@ -12,6 +12,12 @@ Read this comic http://theoatmeal.com/comics/design_hell
 
 git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 
+Modifications:
+1. set all to css styles
+2. set serif fonts
+3. set the yesllowish blackgroud
+4. Added underlining to paragraphs
+
 License/Copyright
 =================
 
